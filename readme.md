@@ -8,7 +8,7 @@ This README explains:
 - What the Docker setup/compose service does
 - What the output JSON looks like
 - How to tune detection quality
-- Quick start & usage (kept exactly as before)
+- Quick start & usage
 
 ---
 
@@ -102,7 +102,7 @@ There’s an HTML canvas tool to **preview** your beatmap: open `Visualizer.html
 
 ---
 
-## Quick start (keep usage)
+## Quick start
 
 > Create a virtual environment and install:
 
