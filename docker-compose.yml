@@ -1,0 +1,8 @@
+services:
+  auto-chart:
+    build: .
+    volumes:
+      - ./input:/input
+      - ./output:/output
+    working_dir: /app
+    command: ["/input/do_i_wanna_know.flac", "--out", "/output/do_i_wanna_know.json", "--subdiv", "4", "--downbeat-every", "4", "--demucs"]
