@@ -14,3 +14,6 @@ python auto_chart.py "path/to/song.wav" --out beatmap.json --subdiv 4 --downbeat
 
 # Run as compose
 docker-compose run --rm auto-chart /input/1_believer.mp3 --out /output/believer_beatmap.json --subdiv 4 --downbeat-every 4 --demucs
+
+# Visualizer.html  
+An html canvas to visualize and listen to the beatmap, just open in a browser, load the beatmap and original track.
